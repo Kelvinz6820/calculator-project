@@ -1,0 +1,7 @@
+.result-container {
+    height: 80px;
+    border: solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

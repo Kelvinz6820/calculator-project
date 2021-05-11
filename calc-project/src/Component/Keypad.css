@@ -1,0 +1,86 @@
+.keypad {
+    width: 100%;
+    background-color: slategray;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    height: 100px;
+    font-size: 30px;
+}
+.button-7 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.button-8 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.button-9 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.button-divisor {
+    grid-column: 4;
+    grid-row: 1;
+}
+.button-AC {
+    grid-column: 5;
+    grid-row: 1;
+}
+.button-4 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.button-5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.button-6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+.button-x {
+    grid-column: 4;
+    grid-row: 2;
+}
+.button-1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+.button-2 {
+    grid-column: 2;
+    grid-row: 3;
+}
+.button-3 {
+    grid-column: 3;
+    grid-row: 3;
+}
+.button-subtract{
+    grid-column: 4;
+    grid-row: 3;
+}
+.button-0{
+    grid-column: 1;
+    grid-row: 4;
+}
+.button-dot{
+    grid-column: 2;
+    grid-row: 4;
+}
+.button-sign-change{
+    grid-column: 3;
+    grid-row: 4;
+}
+.button-plus {
+    grid-column: 4;
+    grid-row: 4;
+}
+.button-eq {
+    grid-column: 5;
+    grid-row: 4;
+}

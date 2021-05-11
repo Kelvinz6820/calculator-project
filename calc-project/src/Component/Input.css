@@ -1,0 +1,8 @@
+.input-container {
+    height: 70px;
+    border: solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: silver;
+}
